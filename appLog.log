@@ -1,0 +1,76 @@
+2023-04-24 10:47:34,544 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2023-04-24 10:47:34,640 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 82 ms. Found 4 JPA repository interfaces. 
+2023-04-24 10:47:35,199 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8200 (http) 
+2023-04-24 10:47:35,211 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat] 
+2023-04-24 10:47:35,212 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7] 
+2023-04-24 10:47:35,344 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext 
+2023-04-24 10:47:35,344 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1441 ms 
+2023-04-24 10:47:35,569 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-04-24 10:47:35,630 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final 
+2023-04-24 10:47:35,959 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting... 
+2023-04-24 10:47:36,312 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53dba9cd 
+2023-04-24 10:47:36,315 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed. 
+2023-04-24 10:47:36,333 [WARN] org.hibernate.dialect.Dialect [main] HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions. 
+2023-04-24 10:47:36,335 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2023-04-24 10:47:36,337 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead 
+2023-04-24 10:47:37,648 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-04-24 10:47:37,660 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-04-24 10:47:38,049 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-04-24 10:47:38,439 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8200 (http) with context path '' 
+2023-04-24 10:48:15,187 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested. 
+2023-04-24 10:48:15,258 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(4)-127.0.0.1] Stopping service [Tomcat] 
+2023-04-24 10:48:15,297 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2023-04-24 10:48:15,310 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated... 
+2023-04-24 10:48:15,343 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed. 
+2023-04-24 10:48:18,225 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2023-04-24 10:48:18,309 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 4 JPA repository interfaces. 
+2023-04-24 10:48:18,806 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8200 (http) 
+2023-04-24 10:48:18,817 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat] 
+2023-04-24 10:48:18,817 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7] 
+2023-04-24 10:48:18,933 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext 
+2023-04-24 10:48:18,933 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1280 ms 
+2023-04-24 10:48:19,076 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-04-24 10:48:19,128 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final 
+2023-04-24 10:48:19,444 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting... 
+2023-04-24 10:48:19,808 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e8f23ad 
+2023-04-24 10:48:19,811 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed. 
+2023-04-24 10:48:19,833 [WARN] org.hibernate.dialect.Dialect [main] HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions. 
+2023-04-24 10:48:19,835 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2023-04-24 10:48:19,837 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead 
+2023-04-24 10:48:21,035 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-04-24 10:48:21,045 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-04-24 10:48:21,448 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-04-24 10:48:21,832 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8200 (http) with context path '' 
+2023-04-24 10:49:16,042 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(4)-127.0.0.1] Application shutdown requested. 
+2023-04-24 10:49:16,107 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(4)-127.0.0.1] Stopping service [Tomcat] 
+2023-04-24 10:49:16,144 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(4)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2023-04-24 10:49:16,152 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown initiated... 
+2023-04-24 10:49:16,170 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(4)-127.0.0.1] HikariPool-1 - Shutdown completed. 
+2023-04-24 10:49:19,140 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2023-04-24 10:49:19,220 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 4 JPA repository interfaces. 
+2023-04-24 10:49:19,675 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8200 (http) 
+2023-04-24 10:49:19,686 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat] 
+2023-04-24 10:49:19,686 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.7] 
+2023-04-24 10:49:19,787 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext 
+2023-04-24 10:49:19,788 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1191 ms 
+2023-04-24 10:49:19,939 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-04-24 10:49:19,992 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.1.7.Final 
+2023-04-24 10:49:20,263 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting... 
+2023-04-24 10:49:20,609 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7e8f23ad 
+2023-04-24 10:49:20,611 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed. 
+2023-04-24 10:49:20,629 [WARN] org.hibernate.dialect.Dialect [main] HHH000511: The 5.0.0 version for [org.hibernate.dialect.MySQL5Dialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 5.7.0. Check the community dialects project for available legacy versions. 
+2023-04-24 10:49:20,632 [INFO] SQL dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect 
+2023-04-24 10:49:20,633 [WARN] org.hibernate.orm.deprecation [main] HHH90000026: MySQL5Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead 
+2023-04-24 10:49:21,722 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-04-24 10:49:21,731 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-04-24 10:49:22,048 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2023-04-24 10:49:22,372 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8200 (http) with context path '' 
+2023-04-24 10:49:44,429 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8200-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2023-04-24 10:49:44,430 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8200-exec-1] Initializing Servlet 'dispatcherServlet' 
+2023-04-24 10:49:44,434 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8200-exec-1] Completed initialization in 4 ms 
+2023-04-24 10:52:35,472 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(5)-127.0.0.1] Application shutdown requested. 
+2023-04-24 10:52:35,604 [INFO] org.apache.catalina.core.StandardService [RMI TCP Connection(5)-127.0.0.1] Stopping service [Tomcat] 
+2023-04-24 10:52:35,621 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [RMI TCP Connection(5)-127.0.0.1] Destroying Spring FrameworkServlet 'dispatcherServlet' 
+2023-04-24 10:52:35,683 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(5)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2023-04-24 10:52:35,716 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown initiated... 
+2023-04-24 10:52:35,775 [INFO] com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(5)-127.0.0.1] HikariPool-1 - Shutdown completed. 
